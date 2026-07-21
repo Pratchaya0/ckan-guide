@@ -6,7 +6,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text-1);font-famil
 /* Thai script has no spaces between words — without this, mobile browsers treat a whole
    long Thai sentence as one unbreakable "word" and it overflows the viewport width,
    dragging the entire page wider (shows up as dead space on the right on mobile). */
-body,p,li,td,th,code,a{overflow-wrap:anywhere}
+body,p,li,td,th,code,a,div,span,h1,h2,h3,h4,h5{overflow-wrap:anywhere}
 body{background-image:radial-gradient(circle, color-mix(in srgb, var(--text-3) 16%, transparent) 1px, transparent 1px);
   background-size:26px 26px;background-attachment:fixed}
 img,svg{max-width:100%;display:block}

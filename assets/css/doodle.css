@@ -59,7 +59,7 @@
 .speech .bubble{
   position:relative;background:var(--surface);border:2.2px solid var(--text-1);
   border-radius:4px 22px 22px 22px;padding:14px 18px;box-shadow:3px 4px 0 0 color-mix(in srgb, var(--text-1) 12%, transparent);
-  font-size:16.5px;line-height:1.7;
+  font-size:16.5px;line-height:1.7;min-width:0;
 }
 .speech .bubble .name{display:block;font-family:var(--font-hand);font-weight:700;color:var(--accent);font-size:13px;margin-bottom:4px}
 .speech.right{flex-direction:row-reverse}
